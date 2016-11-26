@@ -1,0 +1,6 @@
+framework module Pods_LSCompose {
+  umbrella header "Pods-LSCompose-umbrella.h"
+
+  export *
+  module * { export * }
+}

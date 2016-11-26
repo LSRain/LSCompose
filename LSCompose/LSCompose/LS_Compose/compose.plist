@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>className</key>
+		<string>VVeibo21.HMComposeViewController</string>
+		<key>icon</key>
+		<string>TabBar.bundle/tabbar_compose_idea</string>
+		<key>title</key>
+		<string>文字</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>TabBar.bundle/tabbar_compose_photo</string>
+		<key>className</key>
+		<string>VVeibo21.HMComposeViewController</string>
+		<key>title</key>
+		<string>相册</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>TabBar.bundle/tabbar_compose_camera</string>
+		<key>className</key>
+		<string>VVeibo21.HMComposeViewController</string>
+		<key>title</key>
+		<string>拍摄</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>TabBar.bundle/tabbar_compose_lbs</string>
+		<key>className</key>
+		<string>VVeibo21.HMComposeViewController</string>
+		<key>title</key>
+		<string>签到</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>TabBar.bundle/tabbar_compose_review</string>
+		<key>className</key>
+		<string>VVeibo21.HMComposeViewController</string>
+		<key>title</key>
+		<string>点评</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>TabBar.bundle/tabbar_compose_more</string>
+		<key>className</key>
+		<string>VVeibo21.HMComposeViewController</string>
+		<key>title</key>
+		<string>更多</string>
+	</dict>
+</array>
+</plist>

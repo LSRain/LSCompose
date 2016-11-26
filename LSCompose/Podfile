@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LSCompose' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LSCompose
+
+# pop 动画
+pod 'pop'
+# YYModel
+pod 'YYModel'
+
+end

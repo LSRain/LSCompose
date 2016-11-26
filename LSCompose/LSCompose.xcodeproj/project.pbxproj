@@ -12,9 +12,32 @@
 		5136C33C1DE69B7300341DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5136C33A1DE69B7300341DAC /* Main.storyboard */; };
 		5136C33E1DE69B7300341DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5136C33D1DE69B7300341DAC /* Assets.xcassets */; };
 		5136C3411DE69B7300341DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5136C33F1DE69B7300341DAC /* LaunchScreen.storyboard */; };
+		5136C3561DE69BF600341DAC /* compose.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5136C3491DE69BF600341DAC /* compose.plist */; };
+		5136C3571DE69BF600341DAC /* LSComposeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C34D1DE69BF600341DAC /* LSComposeMenu.swift */; };
+		5136C3591DE69BF600341DAC /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3511DE69BF600341DAC /* UIImage+ImageEffects.m */; };
+		5136C35A1DE69BF600341DAC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3521DE69BF600341DAC /* UIView+Extension.swift */; };
+		5136C35B1DE69BF600341DAC /* LSComposeMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3541DE69BF600341DAC /* LSComposeMenuButton.swift */; };
+		5136C35C1DE69BF600341DAC /* LSComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3551DE69BF600341DAC /* LSComposeView.swift */; };
+		5136C35E1DE69FF300341DAC /* CommonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C35D1DE69FF300341DAC /* CommonTools.swift */; };
+		5136C36D1DE6A2E400341DAC /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3601DE6A2E400341DAC /* Constraint.swift */; };
+		5136C36E1DE6A2E400341DAC /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3611DE6A2E400341DAC /* ConstraintAttributes.swift */; };
+		5136C36F1DE6A2E400341DAC /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3621DE6A2E400341DAC /* ConstraintDescription.swift */; };
+		5136C3701DE6A2E400341DAC /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3631DE6A2E400341DAC /* ConstraintItem.swift */; };
+		5136C3711DE6A2E400341DAC /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3641DE6A2E400341DAC /* ConstraintMaker.swift */; };
+		5136C3721DE6A2E400341DAC /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3651DE6A2E400341DAC /* ConstraintRelation.swift */; };
+		5136C3731DE6A2E400341DAC /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3661DE6A2E400341DAC /* Debugging.swift */; };
+		5136C3741DE6A2E400341DAC /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3671DE6A2E400341DAC /* EdgeInsets.swift */; };
+		5136C3751DE6A2E400341DAC /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C3681DE6A2E400341DAC /* LayoutConstraint.swift */; };
+		5136C3761DE6A2E400341DAC /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C36A1DE6A2E400341DAC /* SnapKit.swift */; };
+		5136C3771DE6A2E400341DAC /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C36B1DE6A2E400341DAC /* View+SnapKit.swift */; };
+		5136C3781DE6A2E400341DAC /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136C36C1DE6A2E400341DAC /* ViewController+SnapKit.swift */; };
+		514F2E681DE9BE7100846163 /* TabBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 514F2E671DE9BE7100846163 /* TabBar.bundle */; };
+		7C47C119B5DECB1026525BFA /* Pods_LSCompose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABFD14E43420276AA49E8C0 /* Pods_LSCompose.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49CCEB3ECBABAF57796CA1FE /* Pods-LSCompose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCompose.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSCompose/Pods-LSCompose.debug.xcconfig"; sourceTree = "<group>"; };
+		4B60A44DD3264F639059985F /* Pods-LSCompose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSCompose.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSCompose/Pods-LSCompose.release.xcconfig"; sourceTree = "<group>"; };
 		5136C3331DE69B7300341DAC /* LSCompose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSCompose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5136C3361DE69B7300341DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5136C3381DE69B7300341DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,30 @@
 		5136C33D1DE69B7300341DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5136C3401DE69B7300341DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5136C3421DE69B7300341DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5136C3491DE69BF600341DAC /* compose.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = compose.plist; sourceTree = "<group>"; };
+		5136C34B1DE69BF600341DAC /* ls_compose-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ls_compose-Bridging-Header.h"; sourceTree = "<group>"; };
+		5136C34D1DE69BF600341DAC /* LSComposeMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSComposeMenu.swift; sourceTree = "<group>"; };
+		5136C3501DE69BF600341DAC /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		5136C3511DE69BF600341DAC /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		5136C3521DE69BF600341DAC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5136C3541DE69BF600341DAC /* LSComposeMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSComposeMenuButton.swift; sourceTree = "<group>"; };
+		5136C3551DE69BF600341DAC /* LSComposeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSComposeView.swift; sourceTree = "<group>"; };
+		5136C35D1DE69FF300341DAC /* CommonTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTools.swift; sourceTree = "<group>"; };
+		5136C3601DE6A2E400341DAC /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		5136C3611DE6A2E400341DAC /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		5136C3621DE6A2E400341DAC /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		5136C3631DE6A2E400341DAC /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		5136C3641DE6A2E400341DAC /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		5136C3651DE6A2E400341DAC /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		5136C3661DE6A2E400341DAC /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		5136C3671DE6A2E400341DAC /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		5136C3681DE6A2E400341DAC /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		5136C3691DE6A2E400341DAC /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		5136C36A1DE6A2E400341DAC /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		5136C36B1DE6A2E400341DAC /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		5136C36C1DE6A2E400341DAC /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		514F2E671DE9BE7100846163 /* TabBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TabBar.bundle; path = "SnapKit修改版/TabBar.bundle"; sourceTree = "<group>"; };
+		8ABFD14E43420276AA49E8C0 /* Pods_LSCompose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSCompose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C47C119B5DECB1026525BFA /* Pods_LSCompose.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +88,8 @@
 			children = (
 				5136C3351DE69B7300341DAC /* LSCompose */,
 				5136C3341DE69B7300341DAC /* Products */,
+				A55F1A28FFD5703774EF956D /* Pods */,
+				7B96F495ACEFC0B7FE3BE88A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +104,7 @@
 		5136C3351DE69B7300341DAC /* LSCompose */ = {
 			isa = PBXGroup;
 			children = (
+				5136C3481DE69BF600341DAC /* LS_Compose */,
 				5136C3361DE69B7300341DAC /* AppDelegate.swift */,
 				5136C3381DE69B7300341DAC /* ViewController.swift */,
 				5136C33A1DE69B7300341DAC /* Main.storyboard */,
@@ -64,6 +115,93 @@
 			path = LSCompose;
 			sourceTree = "<group>";
 		};
+		5136C3481DE69BF600341DAC /* LS_Compose */ = {
+			isa = PBXGroup;
+			children = (
+				514F2E671DE9BE7100846163 /* TabBar.bundle */,
+				5136C35F1DE6A2E400341DAC /* SnapKit修改版 */,
+				5136C35D1DE69FF300341DAC /* CommonTools.swift */,
+				5136C3491DE69BF600341DAC /* compose.plist */,
+				5136C34A1DE69BF600341DAC /* Controller */,
+				5136C34B1DE69BF600341DAC /* ls_compose-Bridging-Header.h */,
+				5136C34C1DE69BF600341DAC /* Model */,
+				5136C34F1DE69BF600341DAC /* UIImageEffects */,
+				5136C3521DE69BF600341DAC /* UIView+Extension.swift */,
+				5136C3531DE69BF600341DAC /* View */,
+			);
+			path = LS_Compose;
+			sourceTree = "<group>";
+		};
+		5136C34A1DE69BF600341DAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5136C34C1DE69BF600341DAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5136C34D1DE69BF600341DAC /* LSComposeMenu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5136C34F1DE69BF600341DAC /* UIImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				5136C3501DE69BF600341DAC /* UIImage+ImageEffects.h */,
+				5136C3511DE69BF600341DAC /* UIImage+ImageEffects.m */,
+			);
+			path = UIImageEffects;
+			sourceTree = "<group>";
+		};
+		5136C3531DE69BF600341DAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5136C3541DE69BF600341DAC /* LSComposeMenuButton.swift */,
+				5136C3551DE69BF600341DAC /* LSComposeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5136C35F1DE6A2E400341DAC /* SnapKit修改版 */ = {
+			isa = PBXGroup;
+			children = (
+				5136C3601DE6A2E400341DAC /* Constraint.swift */,
+				5136C3611DE6A2E400341DAC /* ConstraintAttributes.swift */,
+				5136C3621DE6A2E400341DAC /* ConstraintDescription.swift */,
+				5136C3631DE6A2E400341DAC /* ConstraintItem.swift */,
+				5136C3641DE6A2E400341DAC /* ConstraintMaker.swift */,
+				5136C3651DE6A2E400341DAC /* ConstraintRelation.swift */,
+				5136C3661DE6A2E400341DAC /* Debugging.swift */,
+				5136C3671DE6A2E400341DAC /* EdgeInsets.swift */,
+				5136C3681DE6A2E400341DAC /* LayoutConstraint.swift */,
+				5136C3691DE6A2E400341DAC /* SnapKit.h */,
+				5136C36A1DE6A2E400341DAC /* SnapKit.swift */,
+				5136C36B1DE6A2E400341DAC /* View+SnapKit.swift */,
+				5136C36C1DE6A2E400341DAC /* ViewController+SnapKit.swift */,
+			);
+			path = "SnapKit修改版";
+			sourceTree = "<group>";
+		};
+		7B96F495ACEFC0B7FE3BE88A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABFD14E43420276AA49E8C0 /* Pods_LSCompose.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55F1A28FFD5703774EF956D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49CCEB3ECBABAF57796CA1FE /* Pods-LSCompose.debug.xcconfig */,
+				4B60A44DD3264F639059985F /* Pods-LSCompose.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5136C3451DE69B7300341DAC /* Build configuration list for PBXNativeTarget "LSCompose" */;
 			buildPhases = (
+				2531F8AA1EC020A18120A02D /* [CP] Check Pods Manifest.lock */,
 				5136C32F1DE69B7300341DAC /* Sources */,
 				5136C3301DE69B7300341DAC /* Frameworks */,
 				5136C3311DE69B7300341DAC /* Resources */,
+				EBEA014472B1BB10E53CA4E8 /* [CP] Embed Pods Frameworks */,
+				2F95E868E8AC97B620236F2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +265,88 @@
 			buildActionMask = 2147483647;
 			files = (
 				5136C3411DE69B7300341DAC /* LaunchScreen.storyboard in Resources */,
+				5136C3561DE69BF600341DAC /* compose.plist in Resources */,
 				5136C33E1DE69B7300341DAC /* Assets.xcassets in Resources */,
 				5136C33C1DE69B7300341DAC /* Main.storyboard in Resources */,
+				514F2E681DE9BE7100846163 /* TabBar.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2531F8AA1EC020A18120A02D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F95E868E8AC97B620236F2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSCompose/Pods-LSCompose-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBEA014472B1BB10E53CA4E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSCompose/Pods-LSCompose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5136C32F1DE69B7300341DAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5136C36D1DE6A2E400341DAC /* Constraint.swift in Sources */,
+				5136C35B1DE69BF600341DAC /* LSComposeMenuButton.swift in Sources */,
+				5136C3591DE69BF600341DAC /* UIImage+ImageEffects.m in Sources */,
+				5136C3781DE6A2E400341DAC /* ViewController+SnapKit.swift in Sources */,
+				5136C36E1DE6A2E400341DAC /* ConstraintAttributes.swift in Sources */,
 				5136C3391DE69B7300341DAC /* ViewController.swift in Sources */,
+				5136C35C1DE69BF600341DAC /* LSComposeView.swift in Sources */,
+				5136C3741DE6A2E400341DAC /* EdgeInsets.swift in Sources */,
+				5136C3571DE69BF600341DAC /* LSComposeMenu.swift in Sources */,
+				5136C3731DE6A2E400341DAC /* Debugging.swift in Sources */,
+				5136C35A1DE69BF600341DAC /* UIView+Extension.swift in Sources */,
+				5136C3761DE6A2E400341DAC /* SnapKit.swift in Sources */,
+				5136C3771DE6A2E400341DAC /* View+SnapKit.swift in Sources */,
+				5136C35E1DE69FF300341DAC /* CommonTools.swift in Sources */,
 				5136C3371DE69B7300341DAC /* AppDelegate.swift in Sources */,
+				5136C3721DE6A2E400341DAC /* ConstraintRelation.swift in Sources */,
+				5136C3711DE6A2E400341DAC /* ConstraintMaker.swift in Sources */,
+				5136C3751DE6A2E400341DAC /* LayoutConstraint.swift in Sources */,
+				5136C36F1DE6A2E400341DAC /* ConstraintDescription.swift in Sources */,
+				5136C3701DE6A2E400341DAC /* ConstraintItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,24 +467,28 @@
 		};
 		5136C3461DE69B7300341DAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CCEB3ECBABAF57796CA1FE /* Pods-LSCompose.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LSCompose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsrain.LSCompose;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LSCompose/LS_Compose/ls_compose-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5136C3471DE69B7300341DAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B60A44DD3264F639059985F /* Pods-LSCompose.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LSCompose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lsrain.LSCompose;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LSCompose/LS_Compose/ls_compose-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +512,7 @@
 				5136C3471DE69B7300341DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
