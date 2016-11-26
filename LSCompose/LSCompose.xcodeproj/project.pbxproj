@@ -119,15 +119,15 @@
 			isa = PBXGroup;
 			children = (
 				514F2E671DE9BE7100846163 /* TabBar.bundle */,
+				5136C3531DE69BF600341DAC /* View */,
 				5136C35F1DE6A2E400341DAC /* SnapKit修改版 */,
-				5136C35D1DE69FF300341DAC /* CommonTools.swift */,
-				5136C3491DE69BF600341DAC /* compose.plist */,
 				5136C34A1DE69BF600341DAC /* Controller */,
-				5136C34B1DE69BF600341DAC /* ls_compose-Bridging-Header.h */,
 				5136C34C1DE69BF600341DAC /* Model */,
 				5136C34F1DE69BF600341DAC /* UIImageEffects */,
 				5136C3521DE69BF600341DAC /* UIView+Extension.swift */,
-				5136C3531DE69BF600341DAC /* View */,
+				5136C35D1DE69FF300341DAC /* CommonTools.swift */,
+				5136C34B1DE69BF600341DAC /* ls_compose-Bridging-Header.h */,
+				5136C3491DE69BF600341DAC /* compose.plist */,
 			);
 			path = LS_Compose;
 			sourceTree = "<group>";
